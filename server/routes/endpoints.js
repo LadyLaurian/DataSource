@@ -1,3 +1,5 @@
+var mongo = require('mongodb');
+
 exports.findAll = function(req, res) {
     res.send([{name:'ep1'}, {name:'ep2'}, {name:'ep3'}]);
 };

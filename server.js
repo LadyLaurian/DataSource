@@ -2,9 +2,9 @@
 
 var express = require('express'),
 endpoints = require('./server/routes/endpoints');
-
 var app = express();
- 
+
+
 
 app.configure(function(){
     app.use(express.static(__dirname + '/public'));
